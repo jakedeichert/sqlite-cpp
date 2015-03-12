@@ -22,7 +22,9 @@ int Database::Connect(std::string tableName, std::string primaryKeyColumnName) {
 	currentPrimaryKeyColumn = primaryKeyColumnName;
 
 	// attempt to connect to the database
-	int resultCode = sqlite3_open("database/sg.db", &db);
+	// TODO make the database filename a paramter.
+	//		for some reason, I never did that?!
+	int resultCode = sqlite3_open("game.db", &db);
 
 	// if there is a result code, connection failed
 	// else, connection was successful
