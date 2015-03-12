@@ -81,5 +81,5 @@ change table settings in ~/.swliterc
 create a lib file from a def file
 ---------------------------------
 ```
-lib /DEF:"C:\Users\Jacob\Desktop\sqlite\sqlite3.def" /OUT:"C:\Users\Jacob\Desktop\sqlite\sqlite3.lib"
+lib /DEF:"C:\...\sqlite\sqlite3.def" /OUT:"C:\...\sqlite\sqlite3.lib"
 ```
